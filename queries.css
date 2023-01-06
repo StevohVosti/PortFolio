@@ -1,77 +1,14 @@
-/* For Mobile */
-
-@media only screen and (max-width: 11460px) {
-  .landing-text h1 {
-    font-size: 13rem;
-  }
-
-  .landing-text h6 {
-    font-size: 2rem;
-  }
-
-  .last-section  a{
-    width: 50%;
-   }
-}
-
-@media (max-width: 991px) {
-  header {
-    padding: 18px 4%;
-  }
-
-  section {
-    padding: 50px 4%;
-  }
-  
-  
-  .skills-container {
-    grid-template-columns: 1fr;
-  }
-
-  .portfolio-description > h1 {
-    font-size: 1.5rem;
-  }
-
-  .portfolio-description  p {
-    font-size: 1rem;
-  }
-
-  .landing-text h1 {
-    font-size: 5rem;
-  }
-  .landing-text h6 {
-    font-size: 1.0rem;
-  }
-
-}
+/*Start media queries*/
 
 @media (max-width: 881px) {
   :root {
     --big-font: 2.7rem;
     --medium-font: 1.4rem;
   }
-
-    .portfolio-description > h1 {
-    font-size: 1.5rem;
-  }
-
-  .portfolio-description  p {
-    font-size: 1rem;
-  }
- 
-  .landing-text h1 {
-    font-size: 5rem;
-  }
-  .landing-text h6 {
-    font-size: 1.0rem;
-  }
-  
-  .last-section  a{
-    width: 50%;
-   }
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 760px) {
+
   :root {
     --big-font: 2.4rem;
     --medium-font: 1.2rem;
@@ -119,74 +56,75 @@
     display: none;
   }
 
-  .home {
-    grid-template-columns: 0.5fr 3fr;
-  }
-
   .landing-text h1 {
-    font-size: 5rem;
+    font-size: 15rem;
   }
   .landing-text h6 {
-    font-size: 1.0rem;
+    font-size: 1.7rem;
   }
 
-  .about-container {
-    grid-template-columns: 1fr;
+  .about-heading h1 {
+    font-size: 8rem;
   }
 
-  .about-img {
-    display: flex;
-    justify-content: center;
+  .section-heading h1 {
+    font-size: 3rem;
   }
 
-  .skills-container {
-    grid-template-columns: 1fr;
+  .about-details .nav-list {
+    flex-direction: row;
   }
 
-  .portfolio-description > h1 {
-    font-size: 1.5rem;
+  .about-details li {
+    margin: 0 2rem;
+  }
+  .icon-container {
+    width: 7rem;
+    height: 7rem;
   }
 
-  .portfolio-description  p {
-    font-size: 1rem;
+  .icon-container i {
+    font-size: 4rem;
   }
-  .timeline p {
-    font-size: 1rem;
+  .timeline ul {
+    margin: 0 0 0 auto;
   }
 
   .timeline .date::before {
+    left: -20rem;
+  }
+
+  .timeline .date::after {
+    left: -5.9rem;
+  }
+  .tech-stack {
+    margin-top: 0;
+  }
+  .btn {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .menu-toggler {
+    top: 2rem;
+    right: 2rem;
+  }
+  .landing-text h1 {
+    font-size: 8rem;
+  }
+
+  .landing-text h6 {
     font-size: 1.4rem;
   }
 
-  .up {
-    right: 2rem;
+  .nav-link {
+    font-size: 3.5rem;
   }
 
-  .last-section  a{
-    width: 75%;
-   }
-
-}
-
-@media (max-width: 340px) {
-  :root {
-    --big-font: 1.7rem;
-    --medium-font: 1.1rem;
+  .about .container {
+    flex-direction: column;
   }
-
-  .home-text h1 {
-    font-size: 4rem;
-  }
-
-  .home-text h6 {
-    font-size: 0.9rem;
-    font-weight: 500;
-  }
-
-  .information .info-box span {
-    font-size: 1rem;
-  }
-
   .profile-img {
     margin: 0 0 7rem 0;
   }
@@ -202,13 +140,30 @@
     margin: 0;
   }
 
-  .last-section  a{
-    width: 100%;
-   }
-
-  .contact-form form {
-    width: 300px;
+  .timeline ul {
+    margin: 0 0 0 auto;
   }
 
+  .timeline .date::before {
+    left: -20rem;
+  }
 
+  .timeline .date::after {
+    left: -5.9rem;
+  }
+  .tech-stack {
+    margin-top: 0;
+  }
+  .up {
+    right: 2rem;
+  }
+  .last-section a {
+    width: 50%;
+  }
+  .open-view ~ .other-projects {
+    padding: 0;
+  }
+  .project {
+    row-gap: 0;
+  }
 }
