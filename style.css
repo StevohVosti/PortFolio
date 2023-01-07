@@ -501,7 +501,12 @@ span {
   text-transform: uppercase;
   font-weight: 300;
   margin-bottom: 1rem;
+  color: gray;
   opacity: 0.3;
+}
+
+.project > p {
+  color: var(--text-color);
 }
 
 .project:hover {
