@@ -100,9 +100,9 @@
   .tech-stack {
     margin-top: 0;
   }
-  .btn {
+  /* .btn {
     width: 50%;
-  }
+  } */
 }
 
 @media only screen and (max-width: 600px) {
@@ -111,20 +111,18 @@
     right: 2rem;
   }
   .landing-text h1 {
-    font-size: 8rem;
+    font-size: 5rem;
   }
 
   .landing-text h6 {
-    font-size: 1.4rem;
+    font-size: 1rem;
   }
 
-  .nav-link {
-    font-size: 3.5rem;
-  }
-
-  .about .container {
+  .about-container {
+    display: flex;
     flex-direction: column;
   }
+
   .profile-img {
     margin: 0 0 7rem 0;
   }
@@ -155,10 +153,10 @@
     margin-top: 0;
   }
   .up {
-    right: 2rem;
+    right: -3rem;
   }
   .last-section a {
-    width: 50%;
+    width: 100%;
   }
   .open-view ~ .other-projects {
     padding: 0;
