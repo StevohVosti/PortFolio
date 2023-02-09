@@ -5,6 +5,10 @@
     --big-font: 2.7rem;
     --medium-font: 1.4rem;
   }
+  
+    .landing-text h1 {
+    font-size: 14rem;
+  }
 }
 
 @media only screen and (max-width: 760px) {
