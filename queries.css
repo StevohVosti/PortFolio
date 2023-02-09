@@ -1,5 +1,12 @@
 /*Start media queries*/
 
+@media (max-width: 1440px) {
+
+    .landing-text h1 {
+    font-size: 14rem;
+  }
+}
+
 @media (max-width: 881px) {
   :root {
     --big-font: 2.7rem;
